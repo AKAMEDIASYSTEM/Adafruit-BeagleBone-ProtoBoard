@@ -1,3 +1,13 @@
+Hi, I'm hoping to do a number of Beaglebone Black projects that use a lot of I2C and analog sensing devices. I modified Adafruit's excellent Proto Capes to include a dedicated I2C bus area that allows you to connect up to 11 I2C devices to the same bus; also, in the place where the SMD pads were, I made an area where you can easily connect voltage-divider type analog sensors to a0 through a5.
+
+I also added some BBB-specific pin labels to the boead because I found I kept having to look those up...
+
+- AKA
+
+PS, super-thanks to Adafruit for sharing their design!
+
+== Adafruit's original text ==
+
 Adafruit Proto Cape Kit for Beagle Bone 
 
 These are the Eagle CAD files for the Adafruit Proto Cape Kit for Beagle Bone:
